@@ -79,11 +79,11 @@ time,
 mark,
 audio,
 video {
-margin: 0;
-padding: 0;
-font-size: 100%;
-font: inherit;
-vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -97,160 +97,218 @@ hgroup,
 menu,
 nav,
 section {
-display: block;
+  display: block;
 }
 body {
-line-height: 1;
-background-color: #87ceeb;
+  line-height: 1;
+  background-color: #87ceeb;
 }
 ol,
 ul {
-list-style: none;
+  list-style: none;
 }
 blockquote,
 q {
-quotes: none;
+  quotes: none;
 }
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-content: "";
-content: none;
+  content: "";
+  content: none;
 }
 table {
-border-collapse: collapse;
-border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Rowdies&display=swap");
 
 .header {
-color: white;
-font-family: "Rowdies", cursive;
-font-size: 2.2em;
+  color: white;
+  font-family: "Rowdies", cursive;
+  font-size: 2.2em;
 }
 
-.painButtons {
-display: flex;
-justify-content: flex-end;
-font-family: "Rowdies", cursive;
-font-size: 1.3em;
-color: #cd5c5c;
+/*.painButtons {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Rowdies", cursive;
+  font-size: 1.3em;
+  color: #cd5c5c;
 }
+*/
 
 .container {
-position: relative;
-text-align: center;
+  position: relative;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .centered {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-text-align: center;
-color: Red;
-font-family: "Rowdies", cursive;
-font-size: 120px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: Red;
+  font-family: "Rowdies", cursive;
+  font-size: 120px;
 }
 .projectsButton {
-position: absolute;
-top: 70%;
-left: 50%;
-transform: translate(-50%, -50%);
-color: Red;
-font-family: "Rowdies", cursive;
-font-size: 60px;
-background-color: black;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: Red;
+  font-family: "Rowdies", cursive;
+  font-size: 60px;
+  background-color: black;
 }
 .box {
-width: 28%;
-height: 60vh;
+  width: 40%;
+  height: 60vh;
 }
 .box1 {
-background-color: green;
-margin-bottom: 2rem;
+  background-color: green;
+  margin-bottom: 2rem;
 }
 .box2 {
-background-color: yellow;
-border-radius: 50%;
+  background-color: yellow;
+  border-radius: 50%;
 }
 .box3 {
-background-color: blue;
+  background-color: blue;
 }
 .box4 {
-background-color: red;
-border-radius: 50%;
+  background-color: red;
+  border-radius: 50%;
 }
 .box5 {
-background-color: orange;
+  background-color: orange;
 }
 .box6 {
-background-color: purple;
-border-radius: 50%;
+  background-color: purple;
+  border-radius: 50%;
 }
 .boxPics {
-display: flex;
-flex-flow: wrap;
-justify-content: space-around;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
 }
 .fa-facebook {
-background: #3b5998;
-color: white;
+  background: #3b5998;
+  color: white;
 }
 
 .fa-twitter {
-background: #55acee;
-color: white;
+  background: #55acee;
+  color: white;
 }
 .fa {
-padding: 20px;
-font-size: 30px;
-width: 2rem;
-text-align: center;
-text-decoration: none;
-border-radius: 50%;
+  padding: 20px;
+  font-size: 30px;
+  width: 2rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
 .footer {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .bottomContact {
-margin-right: 4rem;
-text-align: center;
-font-size: 18px;
-width: 3.5rem;
-height: 1.25rem;
-margin-top: 1rem;
+  margin-right: 4rem;
+  text-align: center;
+  font-size: 18px;
+  width: 3.5rem;
+  height: 1.25rem;
+  margin-top: 1rem;
 }
 .makeSmaller {
-border-radius: 20%;
+  border-radius: 20%;
 }
 
 .aboutME {
-display: flex;
-justify-content: center;
-font-family: "Rowdies", cursive;
-font-size: 26px;
-text-align: center;
-margin-bottom: 8rem;
-margin-top: 3rem;
-background-color: #00008b;
-color: White;
+  display: flex;
+  justify-content: center;
+  font-family: "Rowdies", cursive;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 8rem;
+  margin-top: 3rem;
+  background-color: #00008b;
+  color: White;
 }
 .contactME {
-display: flex;
-justify-content: center;
-font-family: "Rowdies", cursive;
-font-size: 16px;
-margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  font-family: "Rowdies", cursive;
+  font-size: 16px;
+  margin-top: 4rem;
 }
 #email {
-display: flex;
-justify-content: center;
-font-family: "Rowdies", cursive;
-font-size: 16px;
-padding: 1rem;
-margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  font-family: "Rowdies", cursive;
+  font-size: 16px;
+  padding: 1rem;
+  margin-bottom: 5rem;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 2rem;
+    }
+    nav{
+        display:flex;
+        justify-content:space-evenly;
+
+    }
+    .links{
+        display:flex;
+        justify-content: space-between;
+        font-weight: bold;
+        width:75%;
+    }
+    .links .homer, .aboutTime, .bloggers, .contacters{
+        border:1px solid black;
+        background-color: blue;
+        color:white;
+    }
+
+@media (max-width:800px){
+        nav{
+        justify-content:center;
+        }
+        .links{
+        justify-content: space-evenly;
+        flex-direction: column;
+        width:100%;
+        text-align: center;
+        }
+
+    .MYNAME{
+        display:none;
+    }
+
+    .projectsButton {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .bottomContact{
+        border:1px solid black;
+        margin-left: 3.75rem;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+}
+@media (max-width:500px){
+    
 }
