@@ -279,6 +279,9 @@ table {
         background-color: blue;
         color:white;
     }
+    .box3, .box4{
+        margin-bottom:2rem;
+    }
 
 @media (max-width:800px){
         nav{
@@ -294,11 +297,12 @@ table {
     .MYNAME{
         display:none;
     }
-
+    .centered{
+        font-size: 6rem;
+    }
     .projectsButton {
         position: absolute;
         top: 90%;
-        left: 50%;
         transform: translate(-50%, -50%);
     }
     .bottomContact{
@@ -308,7 +312,31 @@ table {
     .footer{
         flex-direction: column;
         align-items: center;
+    }
+.box3, .box4{
+    margin-bottom:2rem;
 }
+}
+
 @media (max-width:500px){
-    
+    nav{
+        justify-content:center;
+        }
+    .links{
+        justify-content: space-evenly;
+        width:100%;
+        text-align: center;
+        }
+    .centered{
+        font-size: 4rem;
+    }
+    .projectsButton{
+        font-size: 2.5rem;
+        top:85%;
+        color:white;
+    }
+    .box {
+        width: 35%;
+        height: 35vh;
+    }
 }
