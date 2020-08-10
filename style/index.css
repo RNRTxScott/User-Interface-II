@@ -1,1 +1,256 @@
-/* Add CSS styling here */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+margin: 0;
+padding: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+display: block;
+}
+body {
+line-height: 1;
+background-color: #87ceeb;
+}
+ol,
+ul {
+list-style: none;
+}
+blockquote,
+q {
+quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+content: "";
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Rowdies&display=swap");
+
+.header {
+color: white;
+font-family: "Rowdies", cursive;
+font-size: 2.2em;
+}
+
+.painButtons {
+display: flex;
+justify-content: flex-end;
+font-family: "Rowdies", cursive;
+font-size: 1.3em;
+color: #cd5c5c;
+}
+
+.container {
+position: relative;
+text-align: center;
+}
+
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+color: Red;
+font-family: "Rowdies", cursive;
+font-size: 120px;
+}
+.projectsButton {
+position: absolute;
+top: 70%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: Red;
+font-family: "Rowdies", cursive;
+font-size: 60px;
+background-color: black;
+}
+.box {
+width: 28%;
+height: 60vh;
+}
+.box1 {
+background-color: green;
+margin-bottom: 2rem;
+}
+.box2 {
+background-color: yellow;
+border-radius: 50%;
+}
+.box3 {
+background-color: blue;
+}
+.box4 {
+background-color: red;
+border-radius: 50%;
+}
+.box5 {
+background-color: orange;
+}
+.box6 {
+background-color: purple;
+border-radius: 50%;
+}
+.boxPics {
+display: flex;
+flex-flow: wrap;
+justify-content: space-around;
+}
+.fa-facebook {
+background: #3b5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55acee;
+color: white;
+}
+.fa {
+padding: 20px;
+font-size: 30px;
+width: 2rem;
+text-align: center;
+text-decoration: none;
+border-radius: 50%;
+}
+.footer {
+display: flex;
+justify-content: center;
+}
+.bottomContact {
+margin-right: 4rem;
+text-align: center;
+font-size: 18px;
+width: 3.5rem;
+height: 1.25rem;
+margin-top: 1rem;
+}
+.makeSmaller {
+border-radius: 20%;
+}
+
+.aboutME {
+display: flex;
+justify-content: center;
+font-family: "Rowdies", cursive;
+font-size: 26px;
+text-align: center;
+margin-bottom: 8rem;
+margin-top: 3rem;
+background-color: #00008b;
+color: White;
+}
+.contactME {
+display: flex;
+justify-content: center;
+font-family: "Rowdies", cursive;
+font-size: 16px;
+margin-top: 4rem;
+}
+#email {
+display: flex;
+justify-content: center;
+font-family: "Rowdies", cursive;
+font-size: 16px;
+padding: 1rem;
+margin-bottom: 5rem;
+}
