@@ -283,41 +283,69 @@ table {
         margin-bottom:2rem;
     }
 
-@media (max-width:800px){
-        nav{
-        justify-content:center;
-        }
-        .links{
-        justify-content: space-evenly;
-        flex-direction: column;
-        width:100%;
-        text-align: center;
-        }
+@media (min-width:1920px){
+    .centered{
+        top:27%;
+        font-size: 16rem;
+    }
+    .projectsButton{
+        font-size: 8rem;
+        top:80%;
+    }
+    .box{
+        width:37.5%;
+        height:60vh;
+    }
+} 
 
-    .MYNAME{
-        display:none;
+@media (max-width:1366px){
+    .projectsButton{
+        top:85%;
+        font-size: 5rem;
     }
     .centered{
-        font-size: 6rem;
+        font-size: 9.5rem;
+        top:45%;
     }
-    .projectsButton {
-        position: absolute;
-        top: 90%;
-        transform: translate(-50%, -50%);
-    }
-    .bottomContact{
-        border:1px solid black;
-        margin-left: 3.75rem;
-    }
-    .footer{
-        flex-direction: column;
-        align-items: center;
-    }
-.box3, .box4{
-    margin-bottom:2rem;
 }
-}
+@media (max-width:800px){
+    nav{
+    justify-content:center;
+    }
+    .links{
+    justify-content: space-evenly;
+    flex-direction: column;
+    width:100%;
+    text-align: center;
+    }
 
+.MYNAME{
+    display:none;
+}
+.centered{
+    font-size: 6rem;
+}
+.projectsButton {
+    position: absolute;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+}
+.bottomContact{
+    border:1px solid black;
+    margin-left: 3.75rem;
+}
+.footer{
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    height:45vh;
+}
+.box3, .box4{
+margin-bottom:2rem;
+}
+}
 @media (max-width:500px){
     nav{
         justify-content:center;
@@ -338,5 +366,18 @@ table {
     .box {
         width: 35%;
         height: 35vh;
+    }
+}
+@media (max-width:360px){
+    .projectsButton{
+        font-size: 1.5rem;
+        top:90%;
+    }
+    .centered{
+        font-size: 3rem;
+    }
+    .box{
+        width:40%;
+        height:25vh;
     }
 }
